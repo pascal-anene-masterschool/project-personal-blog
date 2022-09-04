@@ -1,21 +1,25 @@
+.body-container {
+    display: grid;
+}
+
 .header-container {
-    background-color: #FFE7E7
+    background: #FFE7E7
 }
 
 .main-container {
-
+    background: #f2f2f2
 }
 
 .aside-container {
-
+    background: #f2f2f2;
 }
 
-.section-container {
-
+.contact-section-container {
+    background-color: #FFE7E7;
 }
 
 .footer-container {
-
+    background: #1044FF;
 }
 
 .hero-container {
