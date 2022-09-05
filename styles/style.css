@@ -3,25 +3,34 @@
 }
 
 .header-container {
-    background: #FFE7E7
+    background: #FFE7E7;
+    border: 1px solid #1044FF;
 }
 
 .main-container {
-    background: #f2f2f2
+    background: #f2f2f2;
+    border: 1px solid #1044FF;
 }
 
 .aside-container {
-    background: #f2f2f2;
+    background: #05b139;
+    border: 1px solid #1044FF;
 }
 
 .contact-section-container {
     background-color: #FFE7E7;
+    border: 1px solid #1044FF;
 }
 
 .footer-container {
     background: #1044FF;
+    border: 1px solid #1044FF;
 }
 
-.hero-container {
-    
+.article-container {
+    border: 1px solid #1044FF;
 }
+
+/* .hero-container {
+    
+} */
