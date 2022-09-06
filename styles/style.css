@@ -27,9 +27,24 @@
     border: 1px solid #1044FF;
 }
 
-.article-container {
+.article-item-container {
     border: 1px solid #1044FF;
 }
+
+.categories-section {
+    border: 1px solid #1044FF;
+}
+
+.recent-post-section {
+    border: 1px solid #1044FF;
+}
+
+.tags-section {
+    border: 1px solid #1044FF;
+}
+
+
+
 
 /* .hero-container {
     
