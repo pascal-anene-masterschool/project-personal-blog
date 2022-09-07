@@ -70,15 +70,36 @@
     grid-gap: 1.5em;
 }
 
+.bottom-nav {
+    border: 1px solid #ff9f10;
+}
+
 .contact-section-container {
     background-color: #FFE7E7;
     border: 1px solid #1044FF;
+    grid-area: contact;
+}
+
+.footnote-section-container {
+    border: 1px solid #10ff38;
+    grid-area: footnote;
+}
+
+.trademark-section-container {
+    border: 1px solid #ff9f10;
+    grid-area: trademark;
 }
 
 .footer-container {
-    background: #1044FF;
+    background: #ff1093;
     border: 1px solid #1044FF;
     grid-area: footer;
+
+    display: grid;
+    grid-template-areas: "bottom-nav"
+                         "contact"
+                         "footnote"
+                         "trademark";
 }
 
 .article-item-container {
@@ -105,6 +126,10 @@
     list-style-type: none;
     grid-area: nav;
     
+}
+
+.nav-container ul li {
+    display: inline;
 }
 
 
