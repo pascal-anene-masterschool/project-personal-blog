@@ -125,12 +125,79 @@
 .nav-container ul {
     list-style-type: none;
     grid-area: nav;
+    /* align-self: center; */
     
 }
 
 .nav-container ul li {
     display: inline;
 }
+
+#nav-blog {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#nav-blog, #nav-about, #nav-contact, #home, #sign-up {
+    text-decoration: none;
+}
+
+#home {
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 80px;
+    /* identical to box height, or 267% */
+    letter-spacing: 4px;
+    color: #1044FF;
+}
+
+#nav-about, #nav-contact {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #1044FF;
+    mix-blend-mode: normal;
+
+}
+
+#nav-blog {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #1044FF;
+
+    mix-blend-mode: normal;
+}
+
+#sign-up {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    color: #FFFFFF;
+    margin-left: 2em;
+    margin-right: 1em;
+    
+}
+
+.button-design {
+    background: #1044FF;
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 6.5em;
+}
+
 
 
 .hero-container {
@@ -140,4 +207,8 @@
 
 .nav-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 3em;
 }
