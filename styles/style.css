@@ -15,7 +15,7 @@
 
 .header-container {
     background: #FFE7E7;
-    border: 1px solid #1044FF;
+    /* border: 1px solid #1044FF; */
     grid-area: header;
     display: grid;
     grid-template-areas: "nav"
@@ -201,8 +201,37 @@
 
 
 .hero-container {
-    border: 1px solid #1044FF;
+    /* border: 1px solid #1044FF; */
+    height: 32em;
     grid-area: hero;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-container h1 {
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: #1044FF;
+}
+
+.hero-container p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #1044FF;
 }
 
 .nav-container {
