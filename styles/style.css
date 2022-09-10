@@ -36,8 +36,10 @@
 * This includes layout configuration 
 */
 .main-articles-container {
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
   border: 1px solid #1044ff;
+  margin-left: 5em;
+  
   grid-area: main;
   display: grid;
   grid-template-areas:
@@ -84,6 +86,7 @@
 .aside-container {
   background: #05b139;
   border: 1px solid #1044ff;
+  margin-right: 5em;
   grid-area: sidebar;
   display: grid;
   grid-template-areas:
@@ -153,6 +156,10 @@
 */
 .article-item-container {
   border: 1px solid #1044ff;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 /*
@@ -264,7 +271,7 @@
 }
 
 #sign-up {
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -277,7 +284,7 @@
 
 .button-design {
   background: #1044ff;
-  border-radius: 10px;
+  border-radius: 0.625em;
   padding: 0.5em;
   width: 6.5em;
 }
@@ -302,7 +309,7 @@
 }
 
 .hero-container p {
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -330,6 +337,72 @@
 .author-bitmap {
     border-radius: 50%;
     border: 1px solid #000208;
-    width: 5%;
-    height: 5%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/*
+* Sytling for Images in Cards
+*/
+
+.card-image {
+    border-radius: 0.625em;
+}
+
+/*
+* Styling for Blog Caption in each card
+*/
+.blog-caption {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Text_Black */
+
+    color: #333333;
+}
+
+/*
+* Styling for Blog Title in each Card
+*/
+.blog-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+
+    color: #112A52;
+}
+
+/*
+* Styling for Author Name in each Card
+*/
+.author-name {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: rgba(51, 51, 51, 0.65);
+
+    align-self: center;
+}
+
+/*
+* Author Container Styling and layout
+* Including Bitmap and Name
+*/
+.author-container {
+    display: flex;
+    align-content: center;
+    gap: 1em;
 }
