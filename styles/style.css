@@ -323,3 +323,13 @@
   margin-left: 3em;
   margin-right: 3em;
 }
+
+/*
+* Styling for the small bitmap images in each card
+*/
+.author-bitmap {
+    border-radius: 50%;
+    border: 1px solid #000208;
+    width: 5%;
+    height: 5%;
+}
