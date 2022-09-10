@@ -1,243 +1,325 @@
 @import url("reset.css");
 
-
+/*
+* Styling for Elements within the Body Container
+* Foundation for Overall Website Grid Layout
+*/
 .body-container {
-    display: grid;
-	grid-template-areas: "header header header"
-						 "main main sidebar"
-					     "footer footer footer";
-		
-	/* grid-template-rows: 1fr 3fr 1fr; */
-  	/* grid-template-columns: 2fr 1fr; */
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main sidebar"
+    "footer footer footer";
 
-	grid-gap: 1.5rem;
+  /* grid-template-rows: 1fr 3fr 1fr; */
+  /* grid-template-columns: 2fr 1fr; */
+
+  grid-gap: 1.5rem;
 }
 
+/*
+* Styling for Elements within the Header Element
+* This includes layout configuration for elements within the header
+*/
 .header-container {
-    background: #FFE7E7;
-    /* border: 1px solid #1044FF; */
-    grid-area: header;
-    display: grid;
-    grid-template-areas: "nav"
-                         "hero";
+  background: #ffe7e7;
+  /* border: 1px solid #1044FF; */
+  grid-area: header;
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "hero";
 }
 
+/*
+* Styling for Elements within the Articles Element
+* This includes layout configuration 
+*/
 .main-articles-container {
-    background: #f2f2f2;
-    border: 1px solid #1044FF;
-    grid-area: main;
-    display: grid;
-    grid-template-areas: "card-one card-two"
-						 "card-three card-four"
-					     "card-five card-six";
+  background: #f2f2f2;
+  border: 1px solid #1044ff;
+  grid-area: main;
+  display: grid;
+  grid-template-areas:
+    "card-one card-two"
+    "card-three card-four"
+    "card-five card-six";
 
-    grid-gap: 1.5em;
+  grid-gap: 1.5em;
 }
 
+/*
+* Styling for specific cards
+* This includes layout configuration
+* Including Grid positioning 
+*/
 .card-one {
-    grid-area: card-one;
+  grid-area: card-one;
 }
 
 .card-two {
-    grid-area: card-two;
+  grid-area: card-two;
 }
 
 .card-three {
-    grid-area: card-three;
+  grid-area: card-three;
 }
 
 .card-four {
-    grid-area: card-four;
+  grid-area: card-four;
 }
 
 .card-five {
-    grid-area: card-five;
+  grid-area: card-five;
 }
 
 .card-six {
-    grid-area: card-six;
+  grid-area: card-six;
 }
 
+/*
+* Styling for Elements in the Sidebar
+* This includes layout configuration 
+*/
 .aside-container {
-    background: #05b139;
-    border: 1px solid #1044FF;
-    grid-area: sidebar;
-    display: grid;
-    grid-template-areas: "categories"
-                         "recent-post"
-                         "tags";
+  background: #05b139;
+  border: 1px solid #1044ff;
+  grid-area: sidebar;
+  display: grid;
+  grid-template-areas:
+    "categories"
+    "recent-post"
+    "tags";
 
-    grid-gap: 1.5em;
+  grid-gap: 1.5em;
 }
 
+/*
+* Styling for the bottom Navigation
+* This includes layout configuration 
+*/
 .bottom-nav {
-    border: 1px solid #ff9f10;
+  border: 1px solid #ff9f10;
 }
 
+/*
+* Styling for the contact info section within the Footer Section
+* This includes layout configuration 
+*/
 .contact-section-container {
-    background-color: #FFE7E7;
-    border: 1px solid #1044FF;
-    grid-area: contact;
+  background-color: #ffe7e7;
+  border: 1px solid #1044ff;
+  grid-area: contact;
 }
 
+/*
+* Styling for the Footnote Section Container
+* This includes layout configuration 
+*/
 .footnote-section-container {
-    border: 1px solid #10ff38;
-    grid-area: footnote;
+  border: 1px solid #10ff38;
+  grid-area: footnote;
 }
 
+/*
+* Styling for the Trademark Section Container
+* This includes layout configuration 
+*/
 .trademark-section-container {
-    border: 1px solid #ff9f10;
-    grid-area: trademark;
+  border: 1px solid #ff9f10;
+  grid-area: trademark;
 }
 
+/*
+* Styling for elements within the Footer Container
+* This includes layout configuration 
+*/
 .footer-container {
-    background: #ff1093;
-    border: 1px solid #1044FF;
-    grid-area: footer;
+  background: #ff1093;
+  border: 1px solid #1044ff;
+  grid-area: footer;
 
-    display: grid;
-    grid-template-areas: "bottom-nav"
-                         "contact"
-                         "footnote"
-                         "trademark";
+  display: grid;
+  grid-template-areas:
+    "bottom-nav"
+    "contact"
+    "footnote"
+    "trademark";
 }
 
+/*
+* Styling for each article item
+* This includes layout configuration 
+*/
 .article-item-container {
-    border: 1px solid #1044FF;
-    
+  border: 1px solid #1044ff;
 }
 
+/*
+* Styling for Categories Section in the Sidebar
+* This includes layout configuration 
+*/
 .categories-section {
-    border: 1px solid #1044FF;
-    grid-area: categories;
+  border: 1px solid #1044ff;
+  grid-area: categories;
 }
 
+/*
+* Styling for Elements in the Recent Post Section in the Sidebar
+* This includes layout configuration 
+*/
 .recent-post-section {
-    border: 1px solid #1044FF;
-    grid-area: recent-post;
+  border: 1px solid #1044ff;
+  grid-area: recent-post;
 }
 
+/*
+* Styling for Elements in the Tags Section in the Sidebar
+* This includes layout configuration 
+*/
 .tags-section {
-    border: 1px solid #1044FF;
-    grid-area: tags;
+  border: 1px solid #1044ff;
+  grid-area: tags;
 }
 
+/*
+* Styling for List Elements or navigation
+* This includes layout configuration 
+*/
 .nav-container ul {
-    list-style-type: none;
-    grid-area: nav;
-    /* align-self: center; */
-    
+  list-style-type: none;
+  grid-area: nav;
+  /* align-self: center; */
 }
 
 .nav-container ul li {
-    display: inline;
+  display: inline;
 }
 
+/*
+* Styling for each navigation block: Blog
+* This includes layout configuration 
+* Additional styling can be added here later on
+*/
 #nav-blog {
-    margin-left: 3em;
-    margin-right: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height */
+  color: #1044ff;
+  mix-blend-mode: normal;
 }
 
-#nav-blog, #nav-about, #nav-contact, #home, #sign-up {
-    text-decoration: none;
+/*
+* Common styling for all components of the navigation: Home, Blog, About etc
+* This includes layout configuration 
+* Additional styling can be added here later on
+*/
+#nav-blog,
+#nav-about,
+#nav-contact,
+#home,
+#sign-up {
+  text-decoration: none;
 }
 
+/*
+* Styling for each navigation block: Home
+* This includes layout configuration 
+* Additional styling can be added here later on
+*/
 #home {
-    font-family: 'Noticia Text', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 80px;
-    /* identical to box height, or 267% */
-    letter-spacing: 4px;
-    color: #1044FF;
+  font-family: "Noticia Text", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 80px;
+  /* identical to box height, or 267% */
+  letter-spacing: 4px;
+  color: #1044ff;
 }
 
-#nav-about, #nav-contact {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
+/*
+* Styling for each navigation block: About & Contact
+* This includes layout configuration 
+* Additional styling can be added here later on
+*/
+#nav-about,
+#nav-contact {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
 
-    color: #1044FF;
-    mix-blend-mode: normal;
-
-}
-
-#nav-blog {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-    color: #1044FF;
-
-    mix-blend-mode: normal;
+  color: #1044ff;
+  mix-blend-mode: normal;
 }
 
 #sign-up {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 26px;
-    /* or 186% */
-    color: #FFFFFF;
-    margin-left: 2em;
-    margin-right: 1em;
-    
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 186% */
+  color: #ffffff;
+  margin-left: 2em;
+  margin-right: 1em;
 }
 
 .button-design {
-    background: #1044FF;
-    border-radius: 10px;
-    padding: 0.5em;
-    width: 6.5em;
+  background: #1044ff;
+  border-radius: 10px;
+  padding: 0.5em;
+  width: 6.5em;
 }
 
-
-
 .hero-container {
-    /* border: 1px solid #1044FF; */
-    height: 32em;
-    grid-area: hero;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  /* border: 1px solid #1044FF; */
+  height: 32em;
+  grid-area: hero;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .hero-container h1 {
-    font-family: 'Noticia Text', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 80px;
-    color: #1044FF;
+  font-family: "Noticia Text", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  color: #1044ff;
 }
 
 .hero-container p {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
 
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 
-    color: #1044FF;
+  color: #1044ff;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 3em;
-    margin-right: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3em;
+  margin-right: 3em;
 }
