@@ -86,6 +86,7 @@
 .aside-container {
   background: #05b139;
   border: 1px solid #1044ff;
+  /* width: 23.125rem; */
   margin-right: 5em;
   grid-area: sidebar;
   display: grid;
@@ -165,18 +166,77 @@
 /*
 * Styling for Categories Section in the Sidebar
 * This includes layout configuration 
+* Overall Design with .categories-section
+* Followed by styling for individual children: h2, p
 */
+
 .categories-section {
   border: 1px solid #1044ff;
+  height: 23.000em;
   grid-area: categories;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding: 2.5em 2em;
+  
+}
+
+.categories-section h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    /* Text_Black */
+
+    color: #333333;
+}
+
+.categories-section p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Text_Black */
+
+    color: #333333;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #1044ff;
+    padding-bottom: 0.875em;
+
+}
+
+.categories-section span {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* text-align: right; */
+    /* align-self: flex-end; */
+
+    color: rgba(51, 51, 51, 0.65);
 }
 
 /*
 * Styling for Elements in the Recent Post Section in the Sidebar
 * This includes layout configuration 
 */
+
 .recent-post-section {
   border: 1px solid #1044ff;
+  height: 23.000em;
   grid-area: recent-post;
 }
 
@@ -184,8 +244,10 @@
 * Styling for Elements in the Tags Section in the Sidebar
 * This includes layout configuration 
 */
+
 .tags-section {
   border: 1px solid #1044ff;
+  height: 23.000em;
   grid-area: tags;
 }
 
@@ -193,6 +255,7 @@
 * Styling for List Elements or navigation
 * This includes layout configuration 
 */
+
 .nav-container ul {
   list-style-type: none;
   grid-area: nav;
@@ -208,11 +271,12 @@
 * This includes layout configuration 
 * Additional styling can be added here later on
 */
+
 #nav-blog {
   margin-left: 3em;
   margin-right: 3em;
 
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -228,6 +292,7 @@
 * This includes layout configuration 
 * Additional styling can be added here later on
 */
+
 #nav-blog,
 #nav-about,
 #nav-contact,
@@ -241,6 +306,7 @@
 * This includes layout configuration 
 * Additional styling can be added here later on
 */
+
 #home {
   font-family: "Noticia Text", serif;
   font-style: normal;
@@ -257,6 +323,7 @@
 * This includes layout configuration 
 * Additional styling can be added here later on
 */
+
 #nav-about,
 #nav-contact {
   font-family: "Source Sans Pro", sans-serif;
@@ -334,6 +401,7 @@
 /*
 * Styling for the small bitmap images in each card
 */
+
 .author-bitmap {
   border-radius: 50%;
   border: 1px solid #000208;
@@ -353,6 +421,7 @@
 /*
 * Styling for Blog Caption in each card
 */
+
 .blog-caption {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
@@ -369,6 +438,7 @@
 /*
 * Styling for Blog Title in each Card
 */
+
 .blog-title {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
@@ -383,6 +453,7 @@
 /*
 * Styling for Author Name in each Card
 */
+
 .author-name {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
@@ -399,6 +470,7 @@
 * Author Container Styling and layout
 * Including Bitmap and Name
 */
+
 .author-container {
   display: flex;
   align-content: center;
