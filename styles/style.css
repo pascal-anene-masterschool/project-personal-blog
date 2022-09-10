@@ -37,9 +37,9 @@
 */
 .main-articles-container {
   /* background: #f2f2f2; */
-  border: 1px solid #1044ff;
+  /* border: 1px solid #1044ff; */
   margin-left: 5em;
-  
+
   grid-area: main;
   display: grid;
   grid-template-areas:
@@ -47,7 +47,7 @@
     "card-three card-four"
     "card-five card-six";
 
-  grid-gap: 1.5em;
+  grid-gap: 5.5em;
 }
 
 /*
@@ -155,7 +155,7 @@
 * This includes layout configuration 
 */
 .article-item-container {
-  border: 1px solid #1044ff;
+  /* border: 1px solid #1044ff; */
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -335,66 +335,64 @@
 * Styling for the small bitmap images in each card
 */
 .author-bitmap {
-    border-radius: 50%;
-    border: 1px solid #000208;
-    width: 2rem;
-    height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #000208;
+  width: 2rem;
+  height: 2rem;
 }
-
 
 /*
 * Sytling for Images in Cards
 */
 
 .card-image {
-    border-radius: 0.625em;
+  border-radius: 0.625em;
+  height: 20em;
 }
 
 /*
 * Styling for Blog Caption in each card
 */
 .blog-caption {
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
+  /* Text_Black */
 
-    /* Text_Black */
-
-    color: #333333;
+  color: #333333;
 }
 
 /*
 * Styling for Blog Title in each Card
 */
 .blog-title {
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
 
-
-    color: #112A52;
+  color: #112a52;
 }
 
 /*
 * Styling for Author Name in each Card
 */
 .author-name {
-    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    color: rgba(51, 51, 51, 0.65);
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: rgba(51, 51, 51, 0.65);
 
-    align-self: center;
+  align-self: center;
 }
 
 /*
@@ -402,7 +400,7 @@
 * Including Bitmap and Name
 */
 .author-container {
-    display: flex;
-    align-content: center;
-    gap: 1em;
+  display: flex;
+  align-content: center;
+  gap: 1em;
 }
