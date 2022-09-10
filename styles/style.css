@@ -84,8 +84,8 @@
 * This includes layout configuration 
 */
 .aside-container {
-  background: #05b139;
-  border: 1px solid #1044ff;
+  /* background: #05b139; */
+  /* border: 1px solid #1044ff; */
   /* width: 23.125rem; */
   margin-right: 5em;
   grid-area: sidebar;
@@ -216,7 +216,7 @@
 }
 
 .categories-section span {
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -238,6 +238,65 @@
   border: 1px solid #1044ff;
   height: 23.000em;
   grid-area: recent-post;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding: 2.5em 2em;
+}
+
+.sidebar-image {
+    width: 4.375em;
+    height: 3em;
+    border-radius: 5px;
+}
+
+.recent-post-container {
+    /* border: 1px solid #1044ff; */
+    display: flex;
+    gap: 1em;
+}
+
+.recent-post-headline {
+    border: 1px solid #ffffff;
+}
+
+.recent-post-section h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    /* Text_Black */
+    color: #333333;
+}
+
+.recent-post-headline  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 13.750em;
+    /* or 150% */
+
+    color: rgba(51, 51, 51, 0.65);
+}
+
+#post-date {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    /* Text_Black */
+
+    color: #333333;
 }
 
 /*
@@ -249,6 +308,32 @@
   border: 1px solid #1044ff;
   height: 23.000em;
   grid-area: tags;
+}
+
+.tags-section h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    /* Text_Black */
+    color: #333333;
+}
+
+.tags-section p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Text_Black */
+
+    color: #333333;
 }
 
 /*
