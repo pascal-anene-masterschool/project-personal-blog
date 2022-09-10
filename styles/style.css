@@ -29,6 +29,8 @@
   grid-template-areas:
     "nav"
     "hero";
+
+  grid-template-columns: 1fr;
 }
 
 /*
@@ -47,10 +49,10 @@
     "card-three card-four"
     "card-five card-six";
 
- grid-template-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
   
+ grid-gap: 5.5em;
 
-  grid-gap: 5.5em;
 }
 
 /*
@@ -97,6 +99,8 @@
     "categories"
     "recent-post"
     "tags";
+
+  grid-template-columns: 1fr;
 
   grid-gap: 1.5em;
 }
@@ -152,6 +156,8 @@
     "contact"
     "footnote"
     "trademark";
+
+    grid-template-columns: 1fr;
 }
 
 /*
@@ -347,6 +353,13 @@
 
 #tag-keywords {
     display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+#tag-keywords p {
+    margin-bottom: 1em;
 }
 
 /*
@@ -514,6 +527,7 @@
 .card-image {
   border-radius: 0.625em;
   height: 20em;
+  width: 85%;
 }
 
 /*
