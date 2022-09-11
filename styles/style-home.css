@@ -34,6 +34,13 @@
   grid-template-columns: 1fr;
 }
 
+.desktop-hide {
+  display: none;
+}
+
+.mobile-hide {
+  display: block;
+}
 /*
 * Styling for Elements within the Articles Element
 * This includes layout configuration 
