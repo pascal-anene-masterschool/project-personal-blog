@@ -40,7 +40,7 @@
 .main-articles-container {
   /* background: #f2f2f2; */
   /* border: 1px solid #1044ff; */
-  margin-left: 5em;
+  /* margin-left: 5em; */
 
   grid-area: main;
   display: grid;
@@ -92,7 +92,7 @@
   /* background: #05b139; */
   /* border: 1px solid #1044ff; */
   /* width: 23.125rem; */
-  margin-right: 5em;
+  /* margin-right: 5em; */
   grid-area: sidebar;
   display: grid;
   grid-template-areas:
