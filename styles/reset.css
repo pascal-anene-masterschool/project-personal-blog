@@ -15,13 +15,14 @@
   box-sizing: border-box;
 }
 
-html, body, #__next {
+/* html, body, #__next {
   height: 100%;
-}
+} */
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  padding: 1rem 4rem;
 }
 
 img, picture, video, canvas, svg {
