@@ -119,10 +119,13 @@
 .bottom-nav ul {
   display: flex;
   justify-content: center;
+  gap: 2rem;
+  text-decoration: none;
 }
 
 .bottom-nav li {
   list-style: none;
+  
 }
 
 /*
