@@ -47,11 +47,12 @@
   grid-template-areas:
     "card-one card-two"
     "card-three card-four"
-    "card-five card-six";
+    "card-five card-six"
+    "bottom-nav bottom-nav";
 
   grid-template-columns: 2fr 2fr;
   
- grid-gap: 5.5em;
+  grid-gap: 5.5em;
 
 }
 
@@ -111,6 +112,8 @@
 */
 .bottom-nav {
   border: 1px solid #ff9f10;
+  grid-area: bottom-nav;
+  align-self: center;
 }
 
 /*
