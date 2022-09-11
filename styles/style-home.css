@@ -116,6 +116,15 @@
   align-self: center;
 }
 
+.bottom-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-nav li {
+  list-style: none;
+}
+
 /*
 * Styling for the contact info section within the Footer Section
 * This includes layout configuration 
