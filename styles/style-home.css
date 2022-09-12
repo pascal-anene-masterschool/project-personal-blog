@@ -553,7 +553,7 @@
 
 .card-image {
   border-radius: 0.625em;
-  height: 20em;
+  height: auto;
   width: 85%;
 }
 
