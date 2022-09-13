@@ -191,7 +191,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 5rem;
+  
+  padding: 3.8125rem 6.125rem 6rem 6.125rem; 
 }
 
 #contact-cards {
@@ -201,19 +204,23 @@
   
 }
 
-#office-contact {
-  border: 1px solid #1044ff;
-  /* margin: 2em; */
+
+#office-contact, #mobile-contact, #email-contact {
+  width: 23.125rem;
+  height: 7rem;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1.5rem;
 }
 
-#mobile-contact {
-  border: 1px solid #1044ff;
-  /* margin: 2em; */
-}
-
-#email-contact {
-  border: 1px solid #1044ff;
-  /* margin: 2em; */
+.icon-resize ~ div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.3rem;
 }
 
 .contact-section-container > p {
@@ -246,6 +253,46 @@
     width: 2rem;
     height: 2rem;
 }
+
+.contact-text-style {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+
+  color: #0C1F3F;
+}
+
+.contact-info-style {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+.contact-info-style-email {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  /* Text_Black */
+
+  color: #333333;
+}
+
+
 
 /*
 * Styling for the Footnote Section Container
