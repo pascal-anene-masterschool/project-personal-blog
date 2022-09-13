@@ -188,6 +188,63 @@
   background-color: #ffe7e7;
   border: 1px solid #1044ff;
   grid-area: contact;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#contact-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  
+}
+
+#office-contact {
+  border: 1px solid #1044ff;
+  /* margin: 2em; */
+}
+
+#mobile-contact {
+  border: 1px solid #1044ff;
+  /* margin: 2em; */
+}
+
+#email-contact {
+  border: 1px solid #1044ff;
+  /* margin: 2em; */
+}
+
+.contact-section-container > p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #1044FF;
+}
+
+.contact-section-container > h2 {
+  font-family: "Noticia Text", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+
+  color: #112A52;
+}
+
+.icon-resize {
+    width: 2rem;
+    height: 2rem;
 }
 
 /*
@@ -652,3 +709,7 @@
   align-content: center;
   gap: 1em;
 }
+
+
+
+
