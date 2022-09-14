@@ -356,7 +356,7 @@
 }
 
 .footnote-column-one h3 {
-  font-family: "Noticia Text", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -369,7 +369,7 @@
 }
 
 .footnote-column-one p {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -385,8 +385,24 @@
 * This includes layout configuration 
 */
 .trademark-section-container {
-  border: 1px solid #ff9f10;
   grid-area: trademark;
+  display: flex;
+  justify-content: center;
+  padding: 1.75rem 0;
+  background: #0C1F3F;
+}
+
+.trademark-section-container p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #FFFFFF;
 }
 
 /*
@@ -394,7 +410,7 @@
 * This includes layout configuration 
 */
 .footer-container {
-  background: #ff1093;
+  
   border: 1px solid #1044ff;
   grid-area: footer;
 
