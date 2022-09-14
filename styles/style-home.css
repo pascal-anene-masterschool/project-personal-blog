@@ -140,9 +140,7 @@
   /* identical to box height, or 150% */
 
   text-align: center;
-  color: #1044FF;
-
-
+  color: #1044ff;
 }
 
 #bottom-nav-block-one {
@@ -155,7 +153,7 @@
 }
 
 #bottom-nav-block-two {
-  border: 1px solid #1044FF;
+  border: 1px solid #1044ff;
   width: 3rem;
   height: 3rem;
   text-align: center;
@@ -166,7 +164,7 @@
 }
 
 #bottom-nav-next {
-  border: 1px solid #1044FF;
+  border: 1px solid #1044ff;
   width: 6.625rem;
   height: 3rem;
   text-align: center;
@@ -193,19 +191,19 @@
   align-items: center;
   justify-content: space-around;
   gap: 5rem;
-  
-  padding: 3.8125rem 6.125rem 6rem 6.125rem; 
+
+  padding: 3.8125rem 6.125rem 6rem 6.125rem;
 }
 
 #contact-cards {
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
-  
 }
 
-
-#office-contact, #mobile-contact, #email-contact {
+#office-contact,
+#mobile-contact,
+#email-contact {
   width: 23.125rem;
   height: 7rem;
   background: rgba(255, 255, 255, 0.55);
@@ -233,7 +231,7 @@
 
   text-align: center;
 
-  color: #1044FF;
+  color: #1044ff;
 }
 
 .contact-section-container > h2 {
@@ -246,12 +244,12 @@
 
   text-align: center;
 
-  color: #112A52;
+  color: #112a52;
 }
 
 .icon-resize {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .contact-text-style {
@@ -262,8 +260,7 @@
   line-height: 32px;
   /* identical to box height, or 133% */
 
-
-  color: #0C1F3F;
+  color: #0c1f3f;
 }
 
 .contact-info-style {
@@ -274,33 +271,113 @@
   line-height: 24px;
   /* identical to box height, or 150% */
 
-
   color: rgba(51, 51, 51, 0.65);
 }
 
 .contact-info-style-email {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
 
-
   /* Text_Black */
 
   color: #333333;
 }
-
-
 
 /*
 * Styling for the Footnote Section Container
 * This includes layout configuration 
 */
 .footnote-section-container {
-  border: 1px solid #10ff38;
+  background: #1044ff;
   grid-area: footnote;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 5.9375rem 0 9.8125rem 0;
+}
+
+.footnote-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.footnote-column-one p {
+  width: 29.375rem;
+}
+
+.footnote-column-two,
+.footnote-column-three,
+.footnote-column-four {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Text_White_50% */
+  color: rgba(255, 255, 255, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.footnote-column-two h4,
+.footnote-column-three h4,
+.footnote-column-four h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #fcd8d4;
+}
+
+#social-icons {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: space-around;
+  align-self:baseline;
+  gap: 1rem;
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  
+}
+
+.footnote-column-one h3 {
+  font-family: "Noticia Text", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 80px;
+  /* identical to box height, or 267% */
+
+  letter-spacing: 4px;
+
+  color: #FCD8D4;
+}
+
+.footnote-column-one p {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+
+  color: #FFFFFF;
 }
 
 /*
@@ -756,7 +833,3 @@
   align-content: center;
   gap: 1em;
 }
-
-
-
-
