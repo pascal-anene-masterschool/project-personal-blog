@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("style-tablet.css");
 @import url("style-mobile.css");
 
 /*
@@ -46,9 +47,6 @@
 * This includes layout configuration 
 */
 .main-articles-container {
-  /* background: #f2f2f2; */
-  /* border: 1px solid #1044ff; */
-  /* margin-left: 5em; */
 
   grid-area: main;
   display: grid;
@@ -184,7 +182,6 @@
 */
 .contact-section-container {
   background-color: #ffe7e7;
-  border: 1px solid #1044ff;
   grid-area: contact;
   display: flex;
   flex-direction: column;
@@ -305,7 +302,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-content: flex-start;
+ 
 }
 
 .footnote-column-one p {
@@ -330,6 +327,13 @@
   padding-top: 2rem;
 }
 
+.mobile-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+
 .footnote-column-two h4,
 .footnote-column-three h4,
 .footnote-column-four h4 {
@@ -345,14 +349,15 @@
 
 #social-icons {
   display: flex;
-  width: 2rem;
-  height: 2rem;
   justify-content: space-around;
   align-self:baseline;
   gap: 1rem;
-  margin-left: 2.5rem;
-  margin-top: 3rem;
   
+}
+
+#social-icons img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .footnote-column-one h3 {
@@ -409,19 +414,14 @@
 * Styling for elements within the Footer Container
 * This includes layout configuration 
 */
+
 .footer-container {
   
-  border: 1px solid #1044ff;
   grid-area: footer;
 
-  display: grid;
-  grid-template-areas:
-    "bottom-nav"
-    "contact"
-    "footnote"
-    "trademark";
-
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /*
@@ -430,7 +430,7 @@
 */
 .article-item-container {
   /* border: 1px solid #1044ff; */
-  width: 85%;
+
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -727,7 +727,6 @@
 }
 
 .hero-container {
-  /* border: 1px solid #1044FF; */
   height: 32em;
   grid-area: hero;
   display: flex;
@@ -787,7 +786,7 @@
 .card-image {
   border-radius: 0.625em;
   height: auto;
-  width: 85%;
+  width: 100%;
 }
 
 /*
