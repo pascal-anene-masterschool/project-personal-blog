@@ -1,6 +1,8 @@
 
 @media (max-width: 768px) {
 
+
+
     body.body-container {
         display: flex;
         flex-direction: column;
@@ -68,6 +70,49 @@
         padding-left: 2rem;
         padding-right: 2rem;
         
+    }
+
+    /*
+    * BLOG ENTRY STYLING
+    * SPECIFIC STYLING TO THE BLOG ENTRY CONTENT
+    */
+
+    section#entry-title-bloc h2 {
+        
+        width: auto;
+
+    }
+
+    #author-title-block {
+        
+        flex-wrap: wrap;
+    }
+
+    #entry-footnote {
+
+        flex-wrap: wrap;
+        gap: 2rem;
+        
+    }
+
+    div.main-articles-container {
+  
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    aside {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    img#author-entry-bitmap {
+        
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
     }
 
 }

@@ -462,6 +462,7 @@ aside {
 
 .categories-section {
   border: 1px solid #1044ff;
+  width: auto;
   height: 23em;
   grid-area: categories;
 
@@ -524,6 +525,7 @@ aside {
 
 .recent-post-section {
   border: 1px solid #1044ff;
+  width: auto;
   height: 23em;
   grid-area: recent-post;
 
@@ -594,6 +596,7 @@ aside {
 
 .tags-section {
   border: 1px solid #1044ff;
+  width: auto;
   height: 23em;
   grid-area: tags;
 
@@ -930,7 +933,7 @@ aside {
 
 #author-title-block {
   display: flex;
-  justify-content: flex-start;
+  
   
   gap: 1rem;
 }
