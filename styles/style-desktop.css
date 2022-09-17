@@ -353,15 +353,15 @@
   color: #fcd8d4;
 }
 
-#social-icons {
+.social-icons {
   display: flex;
   justify-content: space-around;
   align-self:baseline;
   gap: 1rem;
-  
+  margin-top: 2rem;
 }
 
-#social-icons img {
+.social-icons img {
   width: 2rem;
   height: 2rem;
 }
@@ -608,7 +608,7 @@
 }
 
 .tags-section p {
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -864,4 +864,348 @@
 * AND SOME HAS TO CHANGE
 */
 
+#blog-entry-main {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
+#entry-title-bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+#entry-title-bloc h2 {
+  font-family: "Noticia Text", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  /* or 111% */
+  width: 10em;
+
+  color: #1044FF;
+}
+
+#back-to-previous {
+  display: flex;
+  align-content: center;
+  justify-content:first baseline;
+  gap: 1rem;
+}
+
+#back-to-previous img {
+  width: 1.5rem;
+  height: 1.5rem;
+  
+}
+
+#back-to-previous p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  color: #1044FF;
+}
+
+#author-title-block {
+  display: flex;
+  justify-content: flex-start;
+  
+  gap: 1rem;
+}
+
+#author-title-block p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #112A52;
+  align-self: center;
+}
+
+#author-title-block span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  color: rgba(51, 51, 51, 0.65)
+}
+
+
+
+
+
+#entry-paragraph-one {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  /* Text_Black */
+
+  color: #333333;
+}
+
+.entry-paragraph-two {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+.entry-paragraph-three {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+#entry-paragraph-four {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+#entry-paragraph-five {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+
+#entry-paragraph-six {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+#entry-sub-header {
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #112A52;
+
+}
+
+#entry-blockquote {
+  display: flex;
+  align-content: center;
+  gap: 1.5rem;
+}
+
+#entry-blockquote div {
+  border: 0.2rem solid #1044ff;
+  background: #1044FF;
+  border-radius: 0.1875rem;
+}
+
+#entry-blockquote blockquote {
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  /* Text_Black */
+
+  color: #333333;
+}
+
+#entry-internal-list {
+  list-style-type: disc;
+  color: #6b6b6b;
+}
+
+#entry-internal-list span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Text_Black */
+
+  color: #333333;
+}
+
+#entry-footnote {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+#entry-tags {
+  display: flex;
+  gap: 2rem;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #112A52;
+}
+
+#entry-social-share {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #73a4f5;
+  /* width: 11.4375rem;
+  height: 3rem; */
+  border-radius: 0.1875rem;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+#entry-social-share p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+#entry-social-share img {
+  width: 1.5rem;
+  height: 1.5rem;
+  
+}
+
+.title-social-icons {
+  display: flex;
+  align-content: center;
+  gap: 0.5rem;
+} 
+
+#entry-author-info {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+
+  border-top: 0.1rem solid #1044ff;
+  border-bottom: 0.1rem solid #1044ff;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  margin-bottom: 3rem;
+}
+
+#author-entry-bitmap {
+  border-radius: 50%;
+  border: 1px solid #000208;
+  width: 8rem;
+  height: 8rem;
+}
+
+#author-info-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#author-info-details h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+  /* Text_Black */
+
+  color: #333333;
+  
+}
+
+#author-info-details h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #112A52;
+
+}
+
+#author-info-details p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+
+
+#entry-recent-posts-heading {
+  font-family: "Noticia Text", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+  /* identical to box height, or 152% */
+
+  color: #112A52;
+  margin-bottom: 2rem;
+}
