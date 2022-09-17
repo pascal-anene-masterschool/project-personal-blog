@@ -42,6 +42,7 @@
 .mobile-hide {
   display: block;
 }
+
 /*
 * Styling for Elements within the Articles Element
 * This includes layout configuration 
@@ -66,6 +67,7 @@
 * This includes layout configuration
 * Including Grid positioning 
 */
+
 .card-one {
   grid-area: card-one;
 }
@@ -94,6 +96,7 @@
 * Styling for Elements in the Sidebar
 * This includes layout configuration 
 */
+
 .aside-container {
   /* background: #05b139; */
   /* border: 1px solid #1044ff; */
@@ -115,6 +118,7 @@
 * Styling for the bottom Navigation
 * This includes layout configuration 
 */
+
 .bottom-nav {
   grid-area: bottom-nav;
   align-self: center;
@@ -180,6 +184,7 @@
 * Styling for the contact info section within the Footer Section
 * This includes layout configuration 
 */
+
 .contact-section-container {
   background-color: #ffe7e7;
   grid-area: contact;
@@ -288,6 +293,7 @@
 * Styling for the Footnote Section Container
 * This includes layout configuration 
 */
+
 .footnote-section-container {
   background: #1044ff;
   grid-area: footnote;
@@ -389,6 +395,7 @@
 * Styling for the Trademark Section Container
 * This includes layout configuration 
 */
+
 .trademark-section-container {
   grid-area: trademark;
   display: flex;
@@ -428,6 +435,7 @@
 * Styling for each article item
 * This includes layout configuration 
 */
+
 .article-item-container {
   /* border: 1px solid #1044ff; */
 
@@ -848,3 +856,12 @@
   align-content: center;
   gap: 1em;
 }
+
+
+/*
+* ADDITIONAL STYLING FOR THE BLOG ARTICLE PAGE
+* SOME STYLING NEED TO STAY THE SAME
+* AND SOME HAS TO CHANGE
+*/
+
+
