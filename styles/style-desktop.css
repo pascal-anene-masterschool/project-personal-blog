@@ -1209,3 +1209,10 @@
   color: #112A52;
   margin-bottom: 2rem;
 }
+
+#blog-entry-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3rem;
+}
