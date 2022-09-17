@@ -48,7 +48,6 @@
 * This includes layout configuration 
 */
 .main-articles-container {
-
   grid-area: main;
   display: grid;
   grid-template-areas:
@@ -317,7 +316,6 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
- 
 }
 
 .footnote-column-one p {
@@ -343,11 +341,11 @@ aside {
 }
 
 .mobile-flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 4rem;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem;
+}
 
 .footnote-column-two h4,
 .footnote-column-three h4,
@@ -365,7 +363,7 @@ aside {
 .social-icons {
   display: flex;
   justify-content: space-around;
-  align-self:baseline;
+  align-self: baseline;
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -385,7 +383,7 @@ aside {
 
   letter-spacing: 4px;
 
-  color: #FCD8D4;
+  color: #fcd8d4;
 }
 
 .footnote-column-one p {
@@ -396,8 +394,7 @@ aside {
   line-height: 32px;
   /* or 160% */
 
-
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*
@@ -410,7 +407,7 @@ aside {
   display: flex;
   justify-content: center;
   padding: 1.75rem 0;
-  background: #0C1F3F;
+  background: #0c1f3f;
 }
 
 .trademark-section-container p {
@@ -423,7 +420,7 @@ aside {
 
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*
@@ -432,7 +429,6 @@ aside {
 */
 
 .footer-container {
-  
   grid-area: footer;
 
   display: flex;
@@ -869,16 +865,11 @@ aside {
   gap: 1em;
 }
 
-
 /*
 * ADDITIONAL STYLING FOR THE BLOG ARTICLE PAGE
 * SOME STYLING NEED TO STAY THE SAME
 * AND SOME HAS TO CHANGE
 */
-
-
-
-
 
 #blog-entry-main {
   padding-top: 3rem;
@@ -903,20 +894,19 @@ aside {
   /* or 111% */
   width: 10em;
 
-  color: #1044FF;
+  color: #1044ff;
 }
 
 #back-to-previous {
   display: flex;
   align-content: center;
-  justify-content:first baseline;
+  justify-content: first baseline;
   gap: 1rem;
 }
 
 #back-to-previous img {
   width: 1.5rem;
   height: 1.5rem;
-  
 }
 
 #back-to-previous p {
@@ -927,14 +917,12 @@ aside {
   line-height: 24px;
   /* identical to box height, or 150% */
 
-
-  color: #1044FF;
+  color: #1044ff;
 }
 
 #author-title-block {
   display: flex;
-  
-  
+
   gap: 1rem;
 }
 
@@ -946,7 +934,7 @@ aside {
   line-height: 24px;
   /* identical to box height, or 150% */
 
-  color: #112A52;
+  color: #112a52;
   align-self: center;
 }
 
@@ -958,10 +946,8 @@ aside {
   line-height: 24px;
   /* identical to box height, or 150% */
 
-
-  color: rgba(51, 51, 51, 0.65)
+  color: rgba(51, 51, 51, 0.65);
 }
-
 
 #entry-paragraph-one {
   font-family: "Source Sans Pro", sans-serif;
@@ -1017,10 +1003,8 @@ aside {
   line-height: 24px;
   /* or 150% */
 
-
   color: rgba(51, 51, 51, 0.65);
 }
-
 
 #entry-paragraph-six {
   font-family: "Source Sans Pro", sans-serif;
@@ -1034,7 +1018,6 @@ aside {
 }
 
 #entry-sub-header {
-
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -1042,8 +1025,7 @@ aside {
   line-height: 32px;
   /* identical to box height, or 133% */
 
-  color: #112A52;
-
+  color: #112a52;
 }
 
 #entry-blockquote {
@@ -1054,12 +1036,11 @@ aside {
 
 #entry-blockquote div {
   border: 0.2rem solid #1044ff;
-  background: #1044FF;
+  background: #1044ff;
   border-radius: 0.1875rem;
 }
 
 #entry-blockquote blockquote {
-
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1107,7 +1088,7 @@ aside {
   line-height: 24px;
   /* identical to box height, or 150% */
 
-  color: #112A52;
+  color: #112a52;
 }
 
 #entry-social-share {
@@ -1132,20 +1113,19 @@ aside {
 
   text-align: right;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #entry-social-share img {
   width: 1.5rem;
   height: 1.5rem;
-  
 }
 
 .title-social-icons {
   display: flex;
   align-content: center;
   gap: 0.5rem;
-} 
+}
 
 #entry-author-info {
   display: flex;
@@ -1184,7 +1164,6 @@ aside {
   /* Text_Black */
 
   color: #333333;
-  
 }
 
 #author-info-details h3 {
@@ -1194,8 +1173,7 @@ aside {
   font-size: 24px;
   line-height: 32px;
   /* identical to box height, or 133% */
-  color: #112A52;
-
+  color: #112a52;
 }
 
 #author-info-details p {
@@ -1209,8 +1187,6 @@ aside {
   color: rgba(51, 51, 51, 0.65);
 }
 
-
-
 #entry-recent-posts-heading {
   font-family: "Noticia Text", serif;
   font-style: italic;
@@ -1219,7 +1195,7 @@ aside {
   line-height: 64px;
   /* identical to box height, or 152% */
 
-  color: #112A52;
+  color: #112a52;
   margin-bottom: 2rem;
 }
 

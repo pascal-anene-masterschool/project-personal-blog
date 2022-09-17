@@ -1,86 +1,69 @@
 @media (max-width: 1200px) {
+  body.body-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
 
-       body.body-container {
-
-            display: grid;
-            grid-template-areas:
-                "header"
-                "main"
-                "sidebar"
-                "footer";
-
-           
-            grid-template-columns: auto;
-
-           
-    
-        }
-
-    
+    grid-template-columns: auto;
+  }
 }
 
 @media (max-width: 1024px) {
+  body.body-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
 
-        body.body-container {
+    grid-template-columns: 1fr;
+  }
 
-            display: grid;
-            grid-template-areas:
-                "header"
-                "main"
-                "sidebar"
-                "footer";
+  div.desktop-hide {
+    display: flex;
+  }
 
-           
-            grid-template-columns: 1fr;
+  div.mobile-hide {
+    display: none;
+  }
 
-    
-        }
+  .burger-container {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+    margin-left: 5rem;
+  }
 
-        div.desktop-hide {
-            display: flex;
-        }
+  .burger-row {
+    border: 3px solid rgb(8, 8, 8);
+    background-color: black;
+    height: 4px;
+    width: 40px;
+    border-radius: 2rem;
+  }
 
-        div.mobile-hide {
-                display: none;
-        }
-    
+  header .nav-container ul {
+    display: none;
 
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: cornflowerblue;
+    align-items: center;
+    gap: 1rem;
+  }
 
-       .burger-container {
-           /* border: 1px solid red; */
-           height: 100%;
-           width: 10%;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           gap: 0.2rem;
-           margin-left: 5rem;
-       }
-
-       .burger-row {
-           border: 3px solid rgb(8, 8, 8);
-           background-color: black;
-           height: 4px;
-           width: 40px;
-           border-radius: 2rem;
-       }
-
-       header .nav-container ul {
-            display: none;
-            
-            flex-direction: column;
-            padding: 0.5rem 1rem;
-            position: absolute;
-            top: 0;
-            right: 0;
-            background-color: cornflowerblue;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .burger-container:hover ~ ul   {
-            display: flex;
-        }
-
-
+  .burger-container:hover ~ ul {
+    display: flex;
+  }
 }
