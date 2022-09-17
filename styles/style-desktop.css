@@ -97,6 +97,7 @@
 * This includes layout configuration 
 */
 
+/*This class is now unused and deprecated*/
 .aside-container {
   /* background: #05b139; */
   /* border: 1px solid #1044ff; */
@@ -112,6 +113,14 @@
   grid-template-columns: 1fr;
 
   grid-gap: 1.5em;
+}
+
+/*Better layout choice with flex rather than grid*/
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
 /*
@@ -864,6 +873,10 @@
 * AND SOME HAS TO CHANGE
 */
 
+
+
+
+
 #blog-entry-main {
   padding-top: 3rem;
   padding-left: 3rem;
@@ -945,9 +958,6 @@
 
   color: rgba(51, 51, 51, 0.65)
 }
-
-
-
 
 
 #entry-paragraph-one {
