@@ -838,6 +838,11 @@ aside {
   padding-right: 5em;
 }
 
+.blog-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 * Styling for Author Name in each Card
 */
@@ -863,6 +868,17 @@ aside {
   display: flex;
   align-content: center;
   gap: 1em;
+}
+
+figcaption {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #1044ff;
 }
 
 /*
